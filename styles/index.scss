@@ -1,0 +1,20 @@
+@import './fonts';
+
+//fontawesome
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+//bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot';
+@import './../node_modules/bootstrap/scss/bootstrap-grid';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities';
+
+//shared
+@import './shared/index';
+
+body {
+  font-size: 20px;
+  font-family: 'Playfair Display', sans-serif;
+}
