@@ -13,7 +13,7 @@ export default function Home() {
       </header>
 
       <main className="content">
-        <div className="button">View all</div>
+        <button className="button">View All</button>
       </main>
 
       <footer className="footer"></footer>
